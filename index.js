@@ -15,7 +15,7 @@ http.createServer((req, res) => {
   res.writeHead(200);
   res.end('Bot is running');
 }).listen(port, () => {
-  console.log(`HTTP server listening on port ${port}`);
+  console.log(`HTTP server listening on port ${3400}`);
 });
 
   }),
